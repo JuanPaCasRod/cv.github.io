@@ -37,7 +37,24 @@ jobs:
           NODE_ENV: production
       
       - name: Add .nojekyll file
-        run: touch dist/.nojekyll
+        run: |
+          touch dist/.nojekyll
+          echo ".nojekyll file created"
+          ls -la dist/.nojekyll
+      
+      - name: Verify build output
+        run: |
+          echo "=== Contents of dist ==="
+          ls -la dist/
+          echo ""
+          echo "=== Contents of dist/assets ==="
+          ls -la dist/assets/ || echo "No assets folder"
+          echo ""
+          echo "=== Checking .nojekyll ==="
+          ls -la dist/.nojekyll || echo ".nojekyll not found"
+          echo ""
+          echo "=== Checking index.html ==="
+          head -20 dist/index.html
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
