@@ -10,6 +10,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/cv.github.io/',
+  base: process.env.NODE_ENV === 'production' ? '/cv.github.io/' : '/',
 })
 
