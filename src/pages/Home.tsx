@@ -64,7 +64,7 @@ export default function Home() {
       <section 
         className="relative w-full h-96 bg-cover bg-center overflow-hidden"
         style={{
-          backgroundImage: "url('/images/hero-backend.jpg')",
+          backgroundImage: `url('${import.meta.env.BASE_URL}images/hero-backend.jpg')`,
           backgroundAttachment: "fixed"
         }}
       >
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="mb-8 animate-fade-in-up" style={{ animationDelay: "0.05s" }}>
             <div className="tech-card glow-border p-4 flex justify-center">
               <img 
-                src="/images/perfilJuanPa.JPG" 
+                src={`${import.meta.env.BASE_URL}images/perfilJuanPa.JPG`}
                 alt="Juan Pablo Castilla" 
                 className="w-full max-w-xs rounded-lg object-cover"
                 style={{ maxHeight: "300px" }}
@@ -174,7 +174,7 @@ export default function Home() {
               <div 
                 className="absolute inset-0 rounded-lg opacity-30"
                 style={{
-                  backgroundImage: "url('/images/skills-pattern.jpg')",
+                  backgroundImage: `url('${import.meta.env.BASE_URL}images/skills-pattern.jpg')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center"
                 }}
