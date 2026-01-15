@@ -2,14 +2,6 @@
 
 Currículum Vitae profesional en línea desarrollado con React, TypeScript y Tailwind CSS.
 
-## 🚀 Características
-
-- Diseño moderno con tema cyberpunk/tech
-- Totalmente responsive
-- Optimizado para GitHub Pages
-- Animaciones suaves y efectos visuales
-- Tema oscuro con acentos cyan/azul eléctrico
-
 ## 📋 Requisitos Previos
 
 - Node.js 18+ 

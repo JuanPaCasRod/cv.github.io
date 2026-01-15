@@ -23,7 +23,12 @@ export default function Home() {
       period: "2024 – Presente",
       title: "Backend Developer",
       company: "Rural Servicios Informáticos (RSI)",
-      description: "Desarrollando microservicios en Java, ciclo de vida, mantenimiento de APIs y servicios backend para el sector bancario (grupo Caja Rural)"
+      description: "Desarrollo y mantenimiento de microservicios backend en Java 17 y Java 21, orientados a entornos de alta disponibilidad y seguridad. Participación en todo el ciclo de vida del software: análisis de requisitos, desarrollo, pruebas, despliegue y mantenimiento evolutivo y correctivo. " +
+"Diseño, implementación y mantenimiento de APIs REST siguiendo buenas prácticas de versionado, seguridad y documentación. " +
+"Desarrollo de servicios backend para el sector bancario, cumpliendo estándares de calidad, trazabilidad y control exigidos por el entorno financiero. " +
+"Uso de Spring Boot como framework principal y Maven para la gestión de dependencias y builds. " +
+"Integración en pipelines CI/CD mediante Jenkins, control de calidad de código con SonarQube y control de versiones con GitLab. " +
+"Realización de consultas SQL sobre bases de datos Oracle, optimización de queries y soporte a lógica de negocio. "
     },
     {
       period: "2019 – 2024",
