@@ -1,5 +1,5 @@
 # CV Online - Juan Pablo Castilla
-
+Para visualizarlo: https://juanpacasrod.github.io/cv.github.io/
 Currículum Vitae profesional en línea desarrollado con React, TypeScript y Tailwind CSS.
 
 ## 📋 Requisitos Previos
